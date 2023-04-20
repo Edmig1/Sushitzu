@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../Styles/Style.css">
     <title>Sushitzu</title>
 </head>
+
 <body>
     <header class="header">
         <picture>
@@ -24,19 +26,19 @@
             <i id="ip" class="fa-regular fa-circle-user ip"></i>
             <p class="pi">Minha Conta</p>
         </div>
-        
+
     </header>
     <main>
         <section>
             <div class="top">
                 <div id="div1">
-                    <img src="../Img/image 1.png" alt="">
+                    <img src="../Img/image 4.png" alt="">
                     <p>Barca Individual</p>
                 </div>
                 <i class="fa-solid fa-arrow-right"></i>
                 <div id="div2">
                     <img src="../Img/image 2.png" alt="">
-                    <p>Barca Casal <3</p>
+                    <p>Barca Casal <3< /p>
                 </div>
                 <i class="fa-solid fa-arrow-right"></i>
                 <div id="div3">
@@ -45,7 +47,7 @@
                 </div>
                 <i class="fa-solid fa-arrow-right"></i>
                 <div id="div4">
-                    <img src="../Img/image 4.png" alt="">
+                    <img src="../Img/image 1.png" alt="">
                     <p>Mais Vendida</p>
                 </div>
             </div>
@@ -55,17 +57,22 @@
                         <i class="fa-solid fa-landmark"></i>
                         <h1><span></span> Sobre a Loja</h1>
                     </div>
-                    <p> <span class="s">Sushitzu</span> , a icônica loja de sushi, foi fundada em 1994 por um apaixonado por culinária japonesa chamado <span class="s">Hiroshi Takahashi. <br></span>
+                    <p> <span class="s">Sushitzu</span> , a icônica loja de sushi, foi fundada em 1994 por um apaixonado
+                        por culinária japonesa chamado <span class="s">Hiroshi Takahashi. <br></span>
                         Desde então, a loja tem sido um destino popular para os amantes de sushi em todo o mundo. <br>
-                       Com uma decoração minimalista e elegante, a <span class="s">Sushitzu </span> é conhecida por sua comida de alta qualidade e atendimento impecável. <br>
-                        A equipe é treinada para preparar os mais frescos e saborosos pratos de sushi, utilizando apenas os ingredientes mais finos e de origem sustentável.</p>
+                        Com uma decoração minimalista e elegante, a <span class="s">Sushitzu </span> é conhecida por sua
+                        comida de alta qualidade e atendimento impecável. <br>
+                        A equipe é treinada para preparar os mais frescos e saborosos pratos de sushi, utilizando apenas
+                        os ingredientes mais finos e de origem sustentável.</p>
                 </div>
                 <div class="bd">
                     <div>
                         <i class="fa-solid fa-store"></i>
                         <h2>Ambiente</h2>
                     </div>
-                    <p>Os clientes da <span class="s">Sushitzu</span> frequentemente elogiam o ambiente tranquilo e sofisticado da loja, bem como a qualidade excepcional da comida e do serviço. Os preços podem ser um pouco elevados, mas a qualidade dos pratos e a experiência geral valem a pena.</p>
+                    <p>Os clientes da <span class="s">Sushitzu</span> frequentemente elogiam o ambiente tranquilo e
+                        sofisticado da loja, bem como a qualidade excepcional da comida e do serviço. Os preços podem
+                        ser um pouco elevados, mas a qualidade dos pratos e a experiência geral valem a pena.</p>
                 </div>
 
             </div>
@@ -92,138 +99,8 @@
         </div>
 
     </footer>
-<script>
-    
-const div1 = document.getElementById("div1");
-const div2 = document.getElementById("div2");
-const div3 = document.getElementById("div3");
-const div4 = document.getElementById("div4");
-
-// Adiciona um event listener de mouseover em cada div
-div1.addEventListener("mouseover", () => {
-    div1.style.transform = "scale(1.1)";
-    div1.style.opacity = "1";
-    div2.style.opacity = "0.3";
-    div3.style.opacity = "0.3";
-    div4.style.opacity = "0.3";
-});
-
-div2.addEventListener("mouseover", () => {
-    div2.style.transform = "scale(1.1)";
-    div2.style.opacity = "1";
-    div1.style.opacity = "0.3";
-    div3.style.opacity = "0.3";
-    div4.style.opacity = "0.3";
-});
-
-div3.addEventListener("mouseover", () => {
-    div3.style.transform = "scale(1.1)";
-    div3.style.opacity = "1";
-    div1.style.opacity = "0.3";
-    div2.style.opacity = "0.3";
-    div4.style.opacity = "0.3";
-});
-
-div4.addEventListener("mouseover", () => {
-    div4.style.transform = "scale(1.1)";
-    div4.style.opacity = "1";
-    div1.style.opacity = "0.3";
-    div2.style.opacity = "0.3";
-    div3.style.opacity = "0.3";
-});
-
-div1.addEventListener("mouseout", () => {
-    div1.style.opacity = "1";
-    div2.style.opacity = "1";
-    div3.style.opacity = "1";
-    div4.style.opacity = "1";
-})
-
-div2.addEventListener("mouseout", () => {
-    div1.style.opacity = "1";
-    div2.style.opacity = "1";
-    div3.style.opacity = "1";
-    div4.style.opacity = "1";
-})
-
-div3.addEventListener("mouseout", () => {
-    div1.style.opacity = "1";
-    div2.style.opacity = "1";
-    div3.style.opacity = "1";
-    div4.style.opacity = "1";
-})
-
-div4.addEventListener("mouseout", () => {
-    div1.style.opacity = "1";
-    div2.style.opacity = "1";
-    div3.style.opacity = "1";
-    div4.style.opacity = "1";
-})
-
-const divi = document.getElementsByClassName("divi")[0]; // seleciona o primeiro elemento com a classe "divi"
-const ip = document.getElementById("ip");
-const pi = document.getElementsByClassName("pi")[0]; // seleciona o primeiro elemento com a classe "pi"
-
-divi.addEventListener("mouseover", () => {
-    pi.style.color = "#1A1818";
-    ip.style.margin ="10px"
-    ip.style.transform = "scale(1.9)";
-    pi.style.transition = "0.2s"
-});
-divi.addEventListener("mouseout", () => {
-    pi.style.color = "#fff";
-    ip.style.transform = "scale(1)";
-});
-
-const div5 = document.getElementById("div5");
-const div6 = document.getElementById("div6");
-const div7 = document.getElementById("div7");
-
-div5.addEventListener("mouseover", () => {
-    div5.style.transform = "scale(1.1)";
-    div5.style.opacity = "1";
-    div6.style.opacity = "0.3";
-    div7.style.opacity = "0.3";
-});
-
-div6.addEventListener("mouseover", () => {
-    div6.style.transform = "scale(1.1)";
-    div6.style.opacity = "1";
-    div5.style.opacity = "0.3";
-    div7.style.opacity = "0.3";
-
-});
-
-div7.addEventListener("mouseover", () => {
-    div7.style.transform = "scale(1.1)";
-    div7.style.opacity = "1";
-    div5.style.opacity = "0.3";
-    div6.style.opacity = "0.3";
-});
-
-
-div5.addEventListener("mouseout", () => {
-    div5.style.transform = "scale(1)";
-    div5.style.opacity = "1";
-    div6.style.opacity = "1";
-    div7.style.opacity = "1";
-});
-
-div6.addEventListener("mouseout", () => {
-    div6.style.transform = "scale(1)";
-    div6.style.opacity = "1";
-    div5.style.opacity = "1";
-    div7.style.opacity = "1";
-
-});
-
-div7.addEventListener("mouseout", () => {
-    div7.style.transform = "scale(1)";
-    div7.style.opacity = "1";
-    div5.style.opacity = "1";
-    div6.style.opacity = "1";
-});
-</script>
 </body>
+<script src="../Script/script.js"></script>
 <script src="https://kit.fontawesome.com/7f62cd2861.js" crossorigin="anonymous"></script>
+
 </html>
